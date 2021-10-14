@@ -1,7 +1,7 @@
 <template>
    <div class="container-nav">
       <h2
-         class="links"
+         class="links font-bold text-xl"
          style="color:white;"
          @click.prevent="this.$router.replace({ name: 'Home' })"
       >
