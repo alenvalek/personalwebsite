@@ -1,5 +1,5 @@
 <template>
-   <div class="container">
+   <div class="container-nav">
       <h2
          class="links"
          style="color:white;"
@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.container-nav {
    background-color: rgb(24, 26, 27);
    padding: 1rem;
    display: flex;

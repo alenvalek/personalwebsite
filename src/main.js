@@ -9,6 +9,7 @@ import { init } from 'emailjs-com';
 init('user_IeoVmVXc1erxbwMYsRWLe');
 import VueToast from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-sugar.css';
+import '@/assets/tailwind.css';
 
 library.add(fab, fas);
 
