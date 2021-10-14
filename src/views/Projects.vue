@@ -29,6 +29,7 @@ export default {
         justify-content: center;
         align-items: center;
         border-radius: 0;
+        margin: 0 auto 0 auto;
     }
 }
 
@@ -36,5 +37,6 @@ export default {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0 auto 0 auto;
 }
 </style>

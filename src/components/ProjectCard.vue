@@ -26,6 +26,7 @@ export default {
     border-radius: 1rem;
     color: white;
     transition: all .5s ease;
+    align-items: center;
 }
 
 .container:hover{
@@ -36,7 +37,6 @@ export default {
 @media screen and (max-width: 900px) {
     .container {
         border-radius: 0;
-        width: fit-content;
         justify-content: center;
         align-items: center;
     }
@@ -49,9 +49,9 @@ export default {
 
 .container > img {
     margin-top: 1rem;
-    max-width: 400px;
+    max-width: 250px;
     height: auto;
-    width: auto;
+    width: 100%;
     }
 
 .container > p {
