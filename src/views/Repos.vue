@@ -13,10 +13,10 @@
                />
             </ul>
          </div>
-         <div v-else-if="repos.length == 0">
+         <div v-if="loaded && repos.length == 0">
             <h1 style="color: white; margin: 10rem;">No repos avaliable :/</h1>
          </div>
-         <div>
+         <div v-if="!loaded">
             <fa
                style="font-size: 10rem; color: green; margin-top: 5rem;"
                icon="spinner"
@@ -36,6 +36,7 @@ export default {
    data() {
       return {
          repos: [],
+         loaded: false,
       };
    },
    components: {
@@ -46,6 +47,7 @@ export default {
          'https://api.github.com/users/alenvalek/repos'
       );
       this.repos = res.data;
+      this.loaded = true;
    },
 };
 </script>

@@ -32,5 +32,6 @@ body {
       rgb(47, 73, 77) 0%,
       rgb(55, 59, 89) 74%
    );
+   overflow-x: hidden;
 }
 </style>
